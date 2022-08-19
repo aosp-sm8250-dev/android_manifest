@@ -74,6 +74,10 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/thermal" />
 
+  <!-- NXP NFC -->
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/nxp/secure_element" />
+
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
 
