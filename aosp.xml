@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="build/make" name="aosp-sm8250-dev/android_build" remote="github" revision="tm-release" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="frameworks/base" name="aosp-sm8250-dev/android_frameworks_base" remote="github" revision="tm-release" />
+  <project path="manifest" name="aosp-sm8250-dev/android_manifest" remote="github" revision="tm-release" />
+  <project path="packages/apps/settings" name="aosp-sm8250-dev/android_packages_apps_settings" remote="github" revision="tm-release" />
+  <project path="patcher" name="aosp-sm8250-dev/android_patcher" remote="github" revision="tm-release" />
+  <project path="system/core" name="aosp-sm8250-dev/android_system_core" remote="github" revision="tm-release" />
+  <project path="vendor/aosp" name="aosp-sm8250-dev/android_vendor_aosp" remote="github" revision="tm-release" />
+</manifest>

@@ -2,11 +2,22 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-13.0.0_r2"
            remote="aosp"
            sync-j="4" />
+
+  <!-- Remotes -->
+  <remote name="github" fetch="https://github.com" />
+  <remote name="github-ssh" fetch="ssh://git@github.com" />
+  <remote name="gitlab" fetch="https://gitlab.com" />
+  <remote name="gitlab-ssh" fetch="ssh://git@gitlab.com" />
+  <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-19.1" />
+  <remote name="lineage-ssh" fetch="ssh://git@github.com/LineageOS" revision="lineage-19.1" />
+  <remote name="caf_system" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.QSSI.12.0.r1-08300-qssi.0"/>
+  <remote name="caf_vendor" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.UM.9.14.2.r1-01700-QCM6490.QSSI12.0"/>
+  <remote name="caf" fetch="https://source.codeaurora.org/quic/la"/>
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r2" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1167,4 +1178,10 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
+
+  <!-- Custom -->
+  <include name="remove.xml"/>
+  <include name="aosp.xml"/>
+  <include name="caf.xml"/>
+  <include name="lineage.xml"/>
 </manifest>
