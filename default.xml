@@ -1184,4 +1184,5 @@
   <include name="aosp.xml"/>
   <include name="caf.xml"/>
   <include name="lineage.xml"/>
+  <include name="proton.xml"/>
 </manifest>

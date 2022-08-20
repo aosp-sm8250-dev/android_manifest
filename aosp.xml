@@ -11,7 +11,9 @@
   </project>
   <project path="frameworks/base" name="aosp-sm8250-dev/android_frameworks_base" remote="github" revision="tm-release" />
   <project path="manifest" name="aosp-sm8250-dev/android_manifest" remote="github" revision="tm-release" />
+  <project path="packages/apps/Launcher3" name="aosp-sm8250-dev/android_packages_apps_Launcher3" remote="github" revision="tm-release" />
   <project path="packages/apps/Settings" name="aosp-sm8250-dev/android_packages_apps_Settings" remote="github" revision="tm-release" />
+  <project path="packages/apps/ThemePicker" name="aosp-sm8250-dev/android_packages_apps_ThemePicker" remote="github" revision="tm-release" />
   <project path="patcher" name="aosp-sm8250-dev/android_patcher" remote="github" revision="tm-release" />
   <project path="system/core" name="aosp-sm8250-dev/android_system_core" remote="github" revision="tm-release" />
   <project path="vendor/aosp" name="aosp-sm8250-dev/android_vendor_aosp" remote="github" revision="tm-release" />
