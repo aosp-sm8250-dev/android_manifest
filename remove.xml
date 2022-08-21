@@ -61,6 +61,9 @@
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/go/darwin-x86" />
 
+  <!-- External -->
+  <remove-project name="platform/external/jemalloc_new" />
+
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
 

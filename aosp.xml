@@ -9,6 +9,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="external/jemalloc_new" name="aosp-sm8250-dev/android_external_jemalloc-new" remote="github" revision="tm-release" />
   <project path="frameworks/base" name="aosp-sm8250-dev/android_frameworks_base" remote="github" revision="tm-release" />
   <project path="manifest" name="aosp-sm8250-dev/android_manifest" remote="github" revision="tm-release" />
   <project path="packages/apps/Launcher3" name="aosp-sm8250-dev/android_packages_apps_Launcher3" remote="github" revision="tm-release" />
